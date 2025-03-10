@@ -1,0 +1,76 @@
+body {
+    font-family: roboto: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09090D;
+    color: white;
+    text-align: left;
+}
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: left;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+.landing {
+    display: flex;
+    flex-direction: column; /* Ensures items are stacked vertically */
+    justify-content: center; /* Centers items vertically */
+    align-items: flex-start; /* Aligns items to the start of the flex container (left) */
+    height: 100vh; /* Full viewport height */
+    padding: 2em;
+    margin: 0 auto;
+    background-image: url('./Media/DSC_9669-Edit.jpg');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+	font-size: 20px;
+    text-align: left; /* Aligns text to the left */
+}
+.about {
+    color: white;
+}
+.mywork{
+	text-align: left;
+	padding-left:50px;
+	font-size: 30px;
+	font-family:roboto:sans-serif;
+}
+img{
+	height: auto;
+	width: 400px;
+	text-align:center;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
+article{
+	font-family: Arial, sans-serif;
+}
+.quick{
+	color:#9794F2;
+}
+.contacts{
+	font-size:20px;
+}
+table{
+	font-family: roboto: sans-serif;
+}
