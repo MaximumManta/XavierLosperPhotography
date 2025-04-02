@@ -84,8 +84,8 @@ table{
 	margin:0 10px 20px 10px;
 	Width:400px;
 	box-sizing: border-box;
-	margin-bottom: 10px;
-		}
+	box-shadow: 5px 5px 5px brown;
+			}
 .hdrpkg h1:nth-child(1),
 .hdrpkg h2:nth-child(2) {
             text-align: center; /* Center the text */
@@ -97,4 +97,43 @@ table{
 	list-style: none;
 	display:flex;
 	margin-right:10px;
+	box-shadow: 5px 5px 5px black;
+	margin: 10px 10px 10px;
+}
+.xlp{
+background-color: black;
+padding: 10px 20px 10px;
+opacity: 0.8;
+}
+.pkgs{
+	color: black;
+	background-color: orange;
+	text-align: center;
+	box-shadow: 5px 5px 5px brown;	
+}
+.pkgsbk{
+	background-image: url(./Media/IMG-20231209-WA0007.jpg);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+    margin-right: 20px; /* Adjust the value as needed */
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111;
 }
