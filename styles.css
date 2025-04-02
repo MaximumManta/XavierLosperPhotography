@@ -66,11 +66,35 @@ article{
 	font-family: Arial, sans-serif;
 }
 .quick{
-	color:#9794F2;
+	color:orange;
 }
 .contacts{
 	font-size:20px;
 }
 table{
 	font-family: roboto: sans-serif;
+}
+.hdrpkg{
+	background-color: orange;
+	padding: 10px 20px;
+	border-radius: 15px;
+	display: inline-block;
+	color:black;
+	margin-bottom: 10px;
+	margin:0 10px 20px 10px;
+	Width:400px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+		}
+.hdrpkg h1:nth-child(1),
+.hdrpkg h2:nth-child(2) {
+            text-align: center; /* Center the text */
+        }
+.home{
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	list-style: none;
+	display:flex;
+	margin-right:10px;
 }
